@@ -47,7 +47,7 @@ set(INCLUDES
     src/Debug/ src/World/ src/PerlinNoise/ src/Utils/ libs/FastNoise/Cpp/)
 set(SOURCEFILES
     src/main.cpp
-    libs/glad/src/glad.c libs/stb_image/stb_image.h libs/stb_image/stb_image_helper.cpp src/camera.cpp
+    libs/glad/src/glad.c libs/stb_image/stb_image.h libs/stb_image/stb_image_helper.cpp src/Camera.cpp
     libs/imgui/imgui.cpp libs/imgui/imgui_draw.cpp libs/imgui/imgui_widgets.cpp libs/imgui/backends/imgui_impl_opengl3.cpp libs/imgui/backends/imgui_impl_glfw.cpp
         libs/imgui/imgui_tables.cpp
     src/engine.cpp src/Entity.cpp src/Events.cpp src/Model.cpp src/Render.cpp src/Shader.cpp src/skybox.cpp src/sandbox.cpp src/scene.cpp
